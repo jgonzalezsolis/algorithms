@@ -96,3 +96,8 @@ function boolToWord( bool ){
         function removeExclamationMarks(s) {
             return s.replace(/!/g, '');
             }
+
+// Write a function to split a string and convert it into an array of words.
+            function stringToArray(string){
+                return string.split(' ');
+                }
